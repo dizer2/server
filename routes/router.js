@@ -68,7 +68,7 @@ router.post("/product",  (req, res) => {
             <br />
             <hr/> ${cartProduct.map((product) => `<div style="width: 100%; height: auto; padding: 20px 0; display: flex; align-items: center; justify-content: space-between">
             <img style="width: 150px; height: 150px;" src=${product.url} alt=${product.name} />
-            <div style="margin-left: 100px;">
+            <div style="margin-left: 80px;">
             <h1>${product.name} : ${product.price}$ </h1>
             <h1>Count: ${product.count}</h1>
             </div>
